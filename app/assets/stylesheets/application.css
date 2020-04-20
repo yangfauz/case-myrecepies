@@ -19,9 +19,48 @@
 }
 
 .jumbotron {
-	background-image: asset-url('cover-image.jpeg');
+	background-color: black !important;
+	/*background-image: asset-url('cover-image.jpeg');*/
 	background-size: cover;
 	height: 300px;
+}
+
+.jumbotron h1, h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge {
+	background-color: #073815 !important;
+}
+
+.btn-xlarge:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+footer a {
+	color: #555;
+}
+footer a:hover {
+	color: #222;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
 }
 
 #logo {
